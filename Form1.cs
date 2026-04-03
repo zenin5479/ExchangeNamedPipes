@@ -12,11 +12,6 @@ namespace ExchangeNamedPipes
       [DllImport("kernel32.dll")]
       private static extern bool FreeConsole();
 
-      private TextBox txtNumber;
-      private Button btnCalc;
-      private Label lblResult;
-
-
       public Form1()
       {
          InitializeComponent();

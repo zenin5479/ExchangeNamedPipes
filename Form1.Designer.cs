@@ -28,12 +28,53 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.components = new System.ComponentModel.Container();
-         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size(800, 450);
-         this.Text = "Form1";
+         this.txtNumber = new System.Windows.Forms.TextBox();
+         btnCalc = new System.Windows.Forms.Button();
+         lblResult = new System.Windows.Forms.Label();
+         SuspendLayout();
+         // 
+         // txtNumber
+         // 
+         this.txtNumber.Location = new System.Drawing.Point(12, 12);
+         this.txtNumber.Multiline = true;
+         this.txtNumber.Name = "txtNumber";
+         this.txtNumber.Size = new System.Drawing.Size(224, 185);
+         this.txtNumber.TabIndex = 0;
+         // 
+         // btnCalc
+         // 
+         btnCalc.Location = new System.Drawing.Point(12, 203);
+         btnCalc.Name = "btnCalc";
+         btnCalc.Size = new System.Drawing.Size(75, 23);
+         btnCalc.TabIndex = 1;
+         btnCalc.Text = "button1";
+         btnCalc.UseVisualStyleBackColor = true;
+         // 
+         // lblResult
+         // 
+         lblResult.AutoSize = true;
+         lblResult.Location = new System.Drawing.Point(21, 249);
+         lblResult.Name = "lblResult";
+         lblResult.Size = new System.Drawing.Size(38, 15);
+         lblResult.TabIndex = 2;
+         lblResult.Text = "label1";
+         // 
+         // Form1
+         // 
+         AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+         ClientSize = new System.Drawing.Size(800, 450);
+         Controls.Add(lblResult);
+         Controls.Add(btnCalc);
+         Controls.Add(this.txtNumber);
+         Name = "Form1";
+         Text = "Form1";
+         ResumeLayout(false);
+         PerformLayout();
       }
 
       #endregion
+
+      private System.Windows.Forms.TextBox txtNumber;
    }
 }
