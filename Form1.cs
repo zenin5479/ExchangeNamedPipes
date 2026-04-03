@@ -21,7 +21,7 @@ namespace ExchangeNamedPipes
       {
          InitializeComponent();
 
-        
+
 
          // Подключаем консоль к процессу
          AllocConsole();
