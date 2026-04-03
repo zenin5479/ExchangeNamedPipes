@@ -29,6 +29,7 @@
       private void InitializeComponent()
       {
          this.txtNumber = new System.Windows.Forms.TextBox();
+         btnCalc = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // txtNumber
@@ -39,11 +40,21 @@
          this.txtNumber.Size = new System.Drawing.Size(224, 185);
          this.txtNumber.TabIndex = 0;
          // 
+         // btnCalc
+         // 
+         btnCalc.Location = new System.Drawing.Point(12, 203);
+         btnCalc.Name = "btnCalc";
+         btnCalc.Size = new System.Drawing.Size(75, 23);
+         btnCalc.TabIndex = 1;
+         btnCalc.Text = "button1";
+         btnCalc.UseVisualStyleBackColor = true;
+         // 
          // Form1
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(800, 450);
+         Controls.Add(btnCalc);
          Controls.Add(this.txtNumber);
          Name = "Form1";
          Text = "Form1";
