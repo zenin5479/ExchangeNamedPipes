@@ -30,6 +30,7 @@
       {
          this.txtNumber = new System.Windows.Forms.TextBox();
          btnCalc = new System.Windows.Forms.Button();
+         lblResult = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
          // txtNumber
@@ -49,11 +50,21 @@
          btnCalc.Text = "button1";
          btnCalc.UseVisualStyleBackColor = true;
          // 
+         // lblResult
+         // 
+         lblResult.AutoSize = true;
+         lblResult.Location = new System.Drawing.Point(21, 249);
+         lblResult.Name = "lblResult";
+         lblResult.Size = new System.Drawing.Size(38, 15);
+         lblResult.TabIndex = 2;
+         lblResult.Text = "label1";
+         // 
          // Form1
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(800, 450);
+         Controls.Add(lblResult);
          Controls.Add(btnCalc);
          Controls.Add(this.txtNumber);
          Name = "Form1";
