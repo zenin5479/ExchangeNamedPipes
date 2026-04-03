@@ -21,8 +21,6 @@ namespace ExchangeNamedPipes
       {
          InitializeComponent();
 
-
-
          // Подключаем консоль к процессу
          AllocConsole();
          Console.WriteLine("=== Калькулятор факториала ===");
