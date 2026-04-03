@@ -8,6 +8,5 @@ namespace ExchangeNamedPipes
       {
          InitializeComponent();
       }
-
    }
 }
