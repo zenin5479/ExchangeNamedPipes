@@ -1,4 +1,4 @@
-﻿namespace ExchangeNamedPipes
+﻿namespace SyncServer
 {
    partial class Form1
    {

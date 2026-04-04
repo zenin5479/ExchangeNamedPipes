@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeNamedPipes", "ExchangeNamedPipes.csproj", "{73AA148D-56CD-4F7D-8788-F35613FC5245}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncServer", "SyncServer\SyncServer.csproj", "{594AD6E5-2CA2-4C1A-9072-88D459297DB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncServer", "SyncServer\SyncServer.csproj", "{332AD54D-4492-4223-99AE-39B2F9E367EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{73AA148D-56CD-4F7D-8788-F35613FC5245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73AA148D-56CD-4F7D-8788-F35613FC5245}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73AA148D-56CD-4F7D-8788-F35613FC5245}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73AA148D-56CD-4F7D-8788-F35613FC5245}.Release|Any CPU.Build.0 = Release|Any CPU
-		{594AD6E5-2CA2-4C1A-9072-88D459297DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{594AD6E5-2CA2-4C1A-9072-88D459297DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{594AD6E5-2CA2-4C1A-9072-88D459297DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{594AD6E5-2CA2-4C1A-9072-88D459297DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332AD54D-4492-4223-99AE-39B2F9E367EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332AD54D-4492-4223-99AE-39B2F9E367EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332AD54D-4492-4223-99AE-39B2F9E367EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332AD54D-4492-4223-99AE-39B2F9E367EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
