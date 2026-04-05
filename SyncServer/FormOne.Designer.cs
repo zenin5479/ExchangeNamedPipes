@@ -35,7 +35,7 @@
          // 
          // ButtonStop
          // 
-         ButtonStop.Location = new System.Drawing.Point(349, 12);
+         ButtonStop.Location = new System.Drawing.Point(362, 12);
          ButtonStop.Name = "ButtonStop";
          ButtonStop.Size = new System.Drawing.Size(85, 23);
          ButtonStop.TabIndex = 9;
@@ -59,14 +59,14 @@
          textBoxLog.Multiline = true;
          textBoxLog.Name = "textBoxLog";
          textBoxLog.ReadOnly = true;
-         textBoxLog.Size = new System.Drawing.Size(422, 124);
+         textBoxLog.Size = new System.Drawing.Size(435, 124);
          textBoxLog.TabIndex = 7;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(446, 194);
+         ClientSize = new System.Drawing.Size(459, 179);
          Controls.Add(ButtonStop);
          Controls.Add(ButtonStart);
          Controls.Add(textBoxLog);
