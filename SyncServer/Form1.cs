@@ -65,5 +65,10 @@ namespace SyncServer
          _server.Close();
          Log("Остановка сервера (принудительно)");
       }
+
+      private void Log(string message)
+      {
+         textBoxLog.AppendText(string.Format("{0:HH:mm:ss:fff} - {1}{2}", DateTime.Now, message, Environment.NewLine));
+      }
    }
 }
