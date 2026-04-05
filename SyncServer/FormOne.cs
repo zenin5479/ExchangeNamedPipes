@@ -14,7 +14,7 @@ namespace SyncServer
          InitializeComponent();
       }
 
-      private void ButtonStart_Click(object sender, System.EventArgs e)
+      private void ButtonStart_Click(object sender, EventArgs e)
       {
          // Блокируем кнопку на время работы сервера
          ButtonStart.Enabled = false;
