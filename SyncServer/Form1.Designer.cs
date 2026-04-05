@@ -1,6 +1,6 @@
 ﻿namespace SyncServer
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -72,7 +72,7 @@
          Label.TabIndex = 6;
          Label.Text = "Сервер запущен, ожидание подключения...";
          // 
-         // Form1
+         // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,7 +81,7 @@
          Controls.Add(ButtonStart);
          Controls.Add(textBoxLog);
          Controls.Add(Label);
-         Name = "Form1";
+         Name = "FormOne";
          Text = "Двусторонний обмен между Windows Forms и консолью";
          ResumeLayout(false);
          PerformLayout();

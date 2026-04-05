@@ -5,11 +5,11 @@ using System.Windows.Forms;
 
 namespace SyncServer
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
       private NamedPipeServerStream _server;
 
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
       }
