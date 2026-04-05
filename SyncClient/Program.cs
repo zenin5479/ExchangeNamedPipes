@@ -20,7 +20,7 @@ namespace SyncClient
                Console.WriteLine("Подключено к серверу");
 
                // Отправляем сообщение серверу
-               string message = "Привет от консольного клиента!";
+               string message = "Сообщение от консольного клиента";
                byte[] messageBytes = Encoding.UTF8.GetBytes(message);
                client.Write(messageBytes, 0, messageBytes.Length);
                Console.WriteLine("Отправлено: {0}", message);
