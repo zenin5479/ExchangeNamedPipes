@@ -81,7 +81,7 @@
          Controls.Add(textBoxLog);
          Controls.Add(Label);
          Name = "Form1";
-         Text = "Form1";
+         Text = "Двусторонний обмен между Windows Forms и консолью";
          ResumeLayout(false);
          PerformLayout();
       }
