@@ -29,7 +29,7 @@
       private void InitializeComponent()
       {
          buttonStop = new System.Windows.Forms.Button();
-         buttonStart = new System.Windows.Forms.Button();
+         ButtonStart = new System.Windows.Forms.Button();
          textBoxLog = new System.Windows.Forms.TextBox();
          Label = new System.Windows.Forms.Label();
          SuspendLayout();
@@ -45,15 +45,15 @@
          buttonStop.UseVisualStyleBackColor = true;
          buttonStop.Click += buttonStop_Click;
          // 
-         // buttonStart
+         // ButtonStart
          // 
-         buttonStart.Location = new System.Drawing.Point(12, 12);
-         buttonStart.Name = "buttonStart";
-         buttonStart.Size = new System.Drawing.Size(120, 23);
-         buttonStart.TabIndex = 8;
-         buttonStart.Text = "Запустить сервер";
-         buttonStart.UseVisualStyleBackColor = true;
-         buttonStart.Click += buttonStart_Click;
+         ButtonStart.Location = new System.Drawing.Point(12, 12);
+         ButtonStart.Name = "ButtonStart";
+         ButtonStart.Size = new System.Drawing.Size(120, 23);
+         ButtonStart.TabIndex = 8;
+         ButtonStart.Text = "Запустить сервер";
+         ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += buttonStart_Click;
          // 
          // textBoxLog
          // 
@@ -79,7 +79,7 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(446, 194);
          Controls.Add(buttonStop);
-         Controls.Add(buttonStart);
+         Controls.Add(ButtonStart);
          Controls.Add(textBoxLog);
          Controls.Add(Label);
          Name = "Form1";
@@ -91,7 +91,7 @@
       #endregion
 
       private System.Windows.Forms.Button buttonStop;
-      private System.Windows.Forms.Button buttonStart;
+      private System.Windows.Forms.Button ButtonStart;
       private System.Windows.Forms.TextBox textBoxLog;
       private System.Windows.Forms.Label Label;
    }

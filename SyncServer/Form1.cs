@@ -17,7 +17,7 @@ namespace SyncServer
       private void buttonStart_Click(object sender, System.EventArgs e)
       {
          // Блокируем кнопку на время работы сервера
-         buttonStart.Enabled = false;
+         ButtonStart.Enabled = false;
          textBoxLog.Clear();
 
          Log("Сервер запущен, ожидание подключения...");
@@ -58,7 +58,7 @@ namespace SyncServer
          }
 
          Log("Сервер завершил работу");
-         buttonStart.Enabled = true;
+         ButtonStart.Enabled = true;
       }
 
       private void buttonStop_Click(object sender, EventArgs e)
