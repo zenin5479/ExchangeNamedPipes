@@ -31,7 +31,6 @@
          ButtonStop = new System.Windows.Forms.Button();
          ButtonStart = new System.Windows.Forms.Button();
          textBoxLog = new System.Windows.Forms.TextBox();
-         Label = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
          // ButtonStop
@@ -63,15 +62,6 @@
          textBoxLog.Size = new System.Drawing.Size(422, 124);
          textBoxLog.TabIndex = 7;
          // 
-         // Label
-         // 
-         Label.AutoSize = true;
-         Label.Location = new System.Drawing.Point(12, 38);
-         Label.Name = "Label";
-         Label.Size = new System.Drawing.Size(247, 15);
-         Label.TabIndex = 6;
-         Label.Text = "Сервер запущен, ожидание подключения...";
-         // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -80,7 +70,6 @@
          Controls.Add(ButtonStop);
          Controls.Add(ButtonStart);
          Controls.Add(textBoxLog);
-         Controls.Add(Label);
          Name = "FormOne";
          Text = "Двусторонний обмен между Windows Forms и консолью";
          ResumeLayout(false);
@@ -92,6 +81,5 @@
       private System.Windows.Forms.Button ButtonStop;
       private System.Windows.Forms.Button ButtonStart;
       private System.Windows.Forms.TextBox textBoxLog;
-      private System.Windows.Forms.Label Label;
    }
 }
