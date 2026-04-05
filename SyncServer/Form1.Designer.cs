@@ -52,6 +52,7 @@
          buttonStart.TabIndex = 8;
          buttonStart.Text = "Запустить сервер";
          buttonStart.UseVisualStyleBackColor = true;
+         buttonStart.Click += buttonStart_Click;
          // 
          // textBoxLog
          // 
