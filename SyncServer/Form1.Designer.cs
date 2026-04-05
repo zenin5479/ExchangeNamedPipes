@@ -28,22 +28,22 @@
       /// </summary>
       private void InitializeComponent()
       {
-         buttonStop = new System.Windows.Forms.Button();
+         ButtonStop = new System.Windows.Forms.Button();
          ButtonStart = new System.Windows.Forms.Button();
          textBoxLog = new System.Windows.Forms.TextBox();
          Label = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
-         // buttonStop
+         // ButtonStop
          // 
-         buttonStop.Enabled = false;
-         buttonStop.Location = new System.Drawing.Point(349, 12);
-         buttonStop.Name = "buttonStop";
-         buttonStop.Size = new System.Drawing.Size(85, 23);
-         buttonStop.TabIndex = 9;
-         buttonStop.Text = "Остановить";
-         buttonStop.UseVisualStyleBackColor = true;
-         buttonStop.Click += buttonStop_Click;
+         ButtonStop.Enabled = false;
+         ButtonStop.Location = new System.Drawing.Point(349, 12);
+         ButtonStop.Name = "ButtonStop";
+         ButtonStop.Size = new System.Drawing.Size(85, 23);
+         ButtonStop.TabIndex = 9;
+         ButtonStop.Text = "Остановить";
+         ButtonStop.UseVisualStyleBackColor = true;
+         ButtonStop.Click += buttonStop_Click;
          // 
          // ButtonStart
          // 
@@ -78,7 +78,7 @@
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(446, 194);
-         Controls.Add(buttonStop);
+         Controls.Add(ButtonStop);
          Controls.Add(ButtonStart);
          Controls.Add(textBoxLog);
          Controls.Add(Label);
@@ -90,7 +90,7 @@
 
       #endregion
 
-      private System.Windows.Forms.Button buttonStop;
+      private System.Windows.Forms.Button ButtonStop;
       private System.Windows.Forms.Button ButtonStart;
       private System.Windows.Forms.TextBox textBoxLog;
       private System.Windows.Forms.Label Label;
