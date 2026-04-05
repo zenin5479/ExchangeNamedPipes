@@ -36,7 +36,6 @@
          // 
          // ButtonStop
          // 
-         ButtonStop.Enabled = false;
          ButtonStop.Location = new System.Drawing.Point(349, 12);
          ButtonStop.Name = "ButtonStop";
          ButtonStop.Size = new System.Drawing.Size(85, 23);
