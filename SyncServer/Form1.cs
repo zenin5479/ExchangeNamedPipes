@@ -1,6 +1,6 @@
-﻿using System.IO.Pipes;
+﻿using System;
+using System.IO.Pipes;
 using System.Text;
-using System;
 using System.Windows.Forms;
 
 namespace SyncServer
