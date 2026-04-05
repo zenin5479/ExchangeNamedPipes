@@ -43,7 +43,7 @@
          ButtonStop.TabIndex = 9;
          ButtonStop.Text = "Остановить";
          ButtonStop.UseVisualStyleBackColor = true;
-         ButtonStop.Click += buttonStop_Click;
+         ButtonStop.Click += ButtonStop_Click;
          // 
          // ButtonStart
          // 
@@ -53,7 +53,7 @@
          ButtonStart.TabIndex = 8;
          ButtonStart.Text = "Запустить сервер";
          ButtonStart.UseVisualStyleBackColor = true;
-         ButtonStart.Click += buttonStart_Click;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // textBoxLog
          // 

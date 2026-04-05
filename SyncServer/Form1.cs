@@ -14,7 +14,7 @@ namespace SyncServer
          InitializeComponent();
       }
 
-      private void buttonStart_Click(object sender, System.EventArgs e)
+      private void ButtonStart_Click(object sender, System.EventArgs e)
       {
          // Блокируем кнопку на время работы сервера
          ButtonStart.Enabled = false;
@@ -61,7 +61,7 @@ namespace SyncServer
          ButtonStart.Enabled = true;
       }
 
-      private void buttonStop_Click(object sender, EventArgs e)
+      private void ButtonStop_Click(object sender, EventArgs e)
       {
          // Принудительное закрытие (клиент получит исключение, но это единственный способ)
          _server.Close();
