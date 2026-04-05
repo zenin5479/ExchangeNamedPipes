@@ -58,5 +58,12 @@ namespace SyncServer
          Log("Сервер завершил работу");
          buttonStart.Enabled = true;
       }
+
+      private void buttonStop_Click(object sender, EventArgs e)
+      {
+         // Принудительное закрытие (клиент получит исключение, но это единственный способ)
+         _server.Close();
+         Log("Остановка сервера (принудительно)");
+      }
    }
 }

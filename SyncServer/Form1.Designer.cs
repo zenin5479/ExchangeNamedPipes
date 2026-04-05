@@ -43,6 +43,7 @@
          buttonStop.TabIndex = 9;
          buttonStop.Text = "Остановить";
          buttonStop.UseVisualStyleBackColor = true;
+         buttonStop.Click += buttonStop_Click;
          // 
          // buttonStart
          // 
