@@ -28,12 +28,69 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.components = new System.ComponentModel.Container();
-         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size(800, 450);
-         this.Text = "Form1";
+         buttonStop = new System.Windows.Forms.Button();
+         buttonStart = new System.Windows.Forms.Button();
+         textBoxLog = new System.Windows.Forms.TextBox();
+         Label = new System.Windows.Forms.Label();
+         SuspendLayout();
+         // 
+         // buttonStop
+         // 
+         buttonStop.Enabled = false;
+         buttonStop.Location = new System.Drawing.Point(526, 138);
+         buttonStop.Name = "buttonStop";
+         buttonStop.Size = new System.Drawing.Size(85, 23);
+         buttonStop.TabIndex = 9;
+         buttonStop.Text = "Остановить";
+         buttonStop.UseVisualStyleBackColor = true;
+         // 
+         // buttonStart
+         // 
+         buttonStart.Location = new System.Drawing.Point(189, 138);
+         buttonStart.Name = "buttonStart";
+         buttonStart.Size = new System.Drawing.Size(120, 23);
+         buttonStart.TabIndex = 8;
+         buttonStart.Text = "Запустить сервер";
+         buttonStart.UseVisualStyleBackColor = true;
+         // 
+         // textBoxLog
+         // 
+         textBoxLog.Location = new System.Drawing.Point(189, 189);
+         textBoxLog.Multiline = true;
+         textBoxLog.Name = "textBoxLog";
+         textBoxLog.ReadOnly = true;
+         textBoxLog.Size = new System.Drawing.Size(422, 124);
+         textBoxLog.TabIndex = 7;
+         // 
+         // Label
+         // 
+         Label.AutoSize = true;
+         Label.Location = new System.Drawing.Point(189, 171);
+         Label.Name = "Label";
+         Label.Size = new System.Drawing.Size(247, 15);
+         Label.TabIndex = 6;
+         Label.Text = "Сервер запущен, ожидание подключения...";
+         // 
+         // Form1
+         // 
+         AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+         ClientSize = new System.Drawing.Size(800, 450);
+         Controls.Add(buttonStop);
+         Controls.Add(buttonStart);
+         Controls.Add(textBoxLog);
+         Controls.Add(Label);
+         Name = "Form1";
+         Text = "Form1";
+         ResumeLayout(false);
+         PerformLayout();
       }
 
       #endregion
+
+      private System.Windows.Forms.Button buttonStop;
+      private System.Windows.Forms.Button buttonStart;
+      private System.Windows.Forms.TextBox textBoxLog;
+      private System.Windows.Forms.Label Label;
    }
 }
