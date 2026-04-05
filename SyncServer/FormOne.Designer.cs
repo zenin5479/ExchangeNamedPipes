@@ -66,7 +66,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(459, 179);
+         ClientSize = new System.Drawing.Size(459, 177);
          Controls.Add(ButtonStop);
          Controls.Add(ButtonStart);
          Controls.Add(textBoxLog);
